@@ -1,3 +1,48 @@
-/* website background */
-body{background-image: url("https://images.unsplash.com/photo-1486162928267-e6274cb3106f?auto=format&fit=crop&w=1534&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+/* landing page background */
+
+body,html{
+    height: 100%;
+}
+.bg{
+    background-image: url("../img/landing.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    background-color: #000000;
+}
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1.0;
+    
+}
+.container{
+    position: relative;
+    text-align: center;
+    
+}
+btny{
+    background-color: #ffffff;
+
+}
+h1,h2{
+    color: #ffffff;
+    font-weight: bolder;
+    
+}
+btn-group-lg>.btn, .btn-lg {
+    padding: .10rem 10rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    background-color: #ffffff;
+}
+a{
+    color: #000000;
+    font-weight: bolder;
 }

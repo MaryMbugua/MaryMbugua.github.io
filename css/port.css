@@ -1,0 +1,19 @@
+
+/* NAVBAR */
+.navy{
+    background-color: #000000;
+}
+.vis{
+    color: #ffffff;
+}
+.naks{
+    padding-left: 30%;
+}
+/* PROJECTS */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #000000;
+}
+a{
+    color: #000000
+}
