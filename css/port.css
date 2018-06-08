@@ -1,19 +1,91 @@
 
 /* NAVBAR */
 .navy{
-    background-color: #000000;
+    background-color: inherit;
+    height: 17%;
 }
 .vis{
     color: #ffffff;
+    font-size: 45px;
 }
 .naks{
-    padding-left: 30%;
+    padding-left: 23%;
+}
+body{
+    padding-top: 6%;
+    background-image: url("../img/wow.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    background-color: #000000;
+    
 }
 /* PROJECTS */
+#projects{
+    padding-top: 4%;
+}
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
     background-color: #000000;
 }
 a{
     color: #000000
+}
+.pro{
+    color: #000000;
+    text-align: center;
+}
+h2,h4{
+    color: #000000;
+    font-weight: bolder;
+}
+
+/* aboout */
+
+.abi{
+    color: #1c0e9b;
+}
+#about{
+    padding-top: 5%;
+}
+hr{
+    background-color: #000000;
+
+}
+.catch{
+    text-align: center;
+    padding-top: 19%;
+}
+/* skills */
+#skills{
+    padding-top: 4%;
+}
+#boxes{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    
+}
+.culo{
+    background-color: #5C5C5C;
+}
+
+.culon{
+    background-color: #6C7471;
+}
+.angular{
+    background-color: #454545;
+}
+.flask{
+    background-color: #8B8B8B;
+}
+.django{
+    background-color: #6CB08A;
+}
+
+/* contact */
+#contact{
+    padding-top: 4%;
 }

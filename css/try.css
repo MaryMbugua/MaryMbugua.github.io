@@ -1,0 +1,39 @@
+img {
+    opacity: 0.2;
+    background: rgba(0,0,0,.5);
+}
+
+body, html {
+    height: 100%;
+}
+
+.bg { 
+    background-image: url("../img/wow.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+    background-color: #000000;
+}
+
+/* NAVBAR */
+
+
+.bg .naks{
+    color: #000000;
+    font-weight: bolder;
+    opacity: 1.0;
+
+}
+.navy{
+    background-color: transparent;
+    height: 17%;
+}
+.vis{
+    color: #000000;
+    font-weight: bolder;
+}
+.naks{
+    padding-left: 33%;
+}
